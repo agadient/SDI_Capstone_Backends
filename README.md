@@ -14,20 +14,20 @@
 1. Open Intellij
 2. If prompted, Import project [project name]
 3. Click add configuration in top right
-   Format: ![Alt Branches](https://imgur.com/ytA784e)
+   Format: ![Alt Branches](https://i.imgur.com/ytA784e.png)
 4. Click plus in configuartion window
-   Format: ![Alt Branches](https://imgur.com/qzE06xU)
+   Format: ![Alt Branches](https://i.imgur.com/qzE06xU.png)
 5. Select Junit Configuration
-   Format: ![Alt Branches](https://imgur.com/Y6V5eER)
+   Format: ![Alt Branches](https://i.imgur.com/Y6V5eER.png)
 6. Name Package
 7. From Build and Run section select backend.test from dropdown box
-   Format: ![Alt Branches](https://imgur.com/aTjMbFC)
+   Format: ![Alt Branches](https://i.imgur.com/aTjMbFC.png)
 8. Select class SampleControllerTest
-   Format: ![Alt Branches](https://imgur.com/3PnXti5)
-   Format: ![Alt Branches](https://imgur.com/VQDoKU6)
+   Format: ![Alt Branches](https://i.imgur.com/3PnXti5.png)
+   Format: ![Alt Branches](https://i.imgur.com/VQDoKU6.png)
 9. Click Ok
-   Format: ![Alt Branches](https://imgur.com/ByC06e3)
+   Format: ![Alt Branches](https://i.imgur.com/ByC06e3.png)
 10. From top IDE select run backend test with converage.
-    Format: ![Alt Branches](https://imgur.com/MisoHm8)
+    Format: ![Alt Branches](https://i.imgur.com/MisoHm8.png)
 11. View Test Coverage
-    Format: ![Alt Branches](https://imgur.com/W049AU6)
+    Format: ![Alt Branches](https://i.imgur.com/W049AU6.png)
