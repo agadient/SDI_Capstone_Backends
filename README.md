@@ -3,7 +3,8 @@
 1. `npm install`
 2. `cd docker_compose`
 3. `docker-compose up --build -d`
-4. `cd ../ && npm start ` to start server
+4. Wait for the database to initialize. 30 seconds should do.
+5. `cd ../ && npm start ` to start server
 
 # Testing
 
