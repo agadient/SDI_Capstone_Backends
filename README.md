@@ -2,7 +2,7 @@
 
 1. `npm install`
 2. `cd docker_compose`
-3. `run docker-compose up --build -d`
+3. `docker-compose up --build -d`
 4. `cd ../ && npm start ` to start server
 
 # Testing
