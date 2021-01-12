@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./start_database.sh & sleep 5 && mocha",
+    "test": "mocha",
     "coverage": "nyc npm run test",
     "start": "nodemon ./src/bin/www.js",
     "dev": "NODE_ENV=development nodemon ./src/bin/www.js"
