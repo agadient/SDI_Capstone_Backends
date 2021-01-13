@@ -4,9 +4,32 @@ const fs = require('fs');
 const path = require('path');
 const Sequelize = require('sequelize');
 const basename = path.basename(__filename);
-const env = process.env.NODE_ENV || 'development';
-const config = require(__dirname + '/../config/config.json')[env];
+const env = process.env.NODE_ENV || 'production';
+var config = "";
+console.log("Starting in "+ env + " mode");
+
+if (env === 'development') {
+  config = require(__dirname + '/../config/config.json').development;
+}
+else if (env === 'test') {
+  config = require(__dirname + '/../config/config.json').test;
+}
+else {
+  config = {
+    username: process.env.MYSQL_USER,
+    password: process.env.APP_DB_ADMIN_PASSWORD,
+    database: process.env.MYSQL_DATABASE,
+    host: process.env.MYSQLHOST,
+    port: process.env.MYSQLPORT,
+    dialect: 'mysql'
+  }
+}
+
+console.log("Process ENV: "+process.env.NODE_ENV)
 const db = {};
+
+
+
 
 let sequelize;
 sequelize = new Sequelize(config.database, config.username, config.password, config);
