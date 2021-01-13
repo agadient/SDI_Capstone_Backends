@@ -1,6 +1,6 @@
 # Installation and Setup
 
-1. `cd express_mysql`
+1. `cd express_postgres`
 2. `npm install`
 3. `cd docker_compose`
 4. `docker-compose up --build -d`
