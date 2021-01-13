@@ -2,7 +2,7 @@
 
 1. cd docker_compose/
 2. `docker-compose up --build -d`
-3. ..cd spring_mongo/
+3. cd ../spring_mongo/
 4. cd backend/
    - 3a. -- if running Linux/Mac chmod +x gradlew
    - 3b. run ./gradlew build
