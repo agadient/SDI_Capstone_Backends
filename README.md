@@ -16,7 +16,7 @@
    - express_postgres
    - exporess_mongo
    - express_mysql
-7. Continue the setup process from the README on the branch that you just checked out.
+7. You are done with the initial part of the setup! However, you don't have a functioning app yet. Continue the setup process from the README.md file on the branch that you just checked out.
 
 # Branches
 
