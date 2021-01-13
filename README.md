@@ -4,9 +4,9 @@
 2. `docker-compose up --build -d`
 3. ..cd spring_mongo/
 4. cd backend/
-   3a. -- if running Linux/Mac chmod +x gradlew
-   3b. run ./gradlew build
-   3c. windows ./gradlew.bat build
+   - 3a. -- if running Linux/Mac chmod +x gradlew
+   - 3b. run ./gradlew build
+   - 3c. windows ./gradlew.bat build
 5. run ./gradlew bootRun
 
 # Testing
