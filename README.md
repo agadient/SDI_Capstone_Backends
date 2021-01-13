@@ -3,11 +3,12 @@
 1. cd docker_compose/
 2. `docker-compose up --build -d`
 3. cd ../spring_mysql/
-4. cd backend/
-   3a. -- if running Linux/Mac chmod +x gradlew
-   3b. run ./gradlew build
-   3c. windows ./gradlew.bat build
-5. run ./gradlew bootRun
+4. update/comment/uncomment the main/resources/application.properties with the appropriate database configuration
+5. cd backend/
+   5a. -- if running Linux/Mac chmod +x gradlew
+   5b. run ./gradlew build
+   5c. windows ./gradlew.bat build
+6. run ./gradlew bootRun
 
 # Testing
 
