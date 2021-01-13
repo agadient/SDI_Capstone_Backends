@@ -16,6 +16,7 @@
    - express_postgres
    - exporess_mongo
    - express_mysql
+7. Continue the setup process from the README on the branch that you just checked out.
 
 # Branches
 
