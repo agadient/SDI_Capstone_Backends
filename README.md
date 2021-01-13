@@ -1,10 +1,11 @@
 # Installation and Setup
 
-1. `npm install`
-2. `cd docker_compose`
-3. `docker-compose up --build -d`
-4. Wait for the database to initialize. 30 seconds should do.
-5. `cd ../ && npm start ` to start server
+1. `cd express_mysql`
+2. `npm install`
+3. `cd docker_compose`
+4. `docker-compose up --build -d`
+5. Wait for the database to initialize. 30 seconds should do.
+6. `cd ../ && npm start ` to start server
 
 # Testing
 
