@@ -6,7 +6,7 @@
 4. `docker-compose up --build -d`
 5. Wait for the database to initialize. 30 seconds should do.
 6. `cd ../ && npm start ` to start server
-7. You are done with the backend! Now, it's time to move on to the frontend. Click on this link and follow the README.md file in this repo: frontend_repo
+7. You are done with the backend! Now, it's time to move on to the frontend. Click on this link and follow the README.md file in this repo: [frontend_repo](https://github.com/agadient/SDI_Capstone_Frontend)
 
 # Testing
 
