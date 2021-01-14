@@ -9,6 +9,7 @@
    - 5b. run ./gradlew build
    - 5c. windows ./gradlew.bat build
 6. run ./gradlew bootRun
+7. You are done with the backend! Now, it's time to move on to the frontend. Click on this link and follow the README.md file in this repo: [frontend_repo](https://github.com/agadient/SDI_Capstone_Frontend)
 
 # Testing
 
